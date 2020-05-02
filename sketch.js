@@ -33,7 +33,7 @@ function createSketchPad(){
     let container = document.createElement('div');
     container.id="container";
 
-    container.style.cssText = `margin-left: 40vw; margin-top: 15vh;
+    container.style.cssText = `margin-left: 40vw; margin-top: 5vh;
     height: 500px; width: 500px;  border: 10px solid black;
         display: grid;
         grid-template-columns: repeat(1fr,${size});
